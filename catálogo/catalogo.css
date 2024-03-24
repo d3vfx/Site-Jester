@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color:black;
+  font-family: 'poppins', sans-serif;
+  padding: 16px;
+}
+
+ul{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding:16px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.centralizar{
+  text-align: center;
+}
+
+.fim{
+  text-align: center;
+  padding: 0;
+}
+
+.fim h3, a{
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  animation: float 4s ease-in-out infinite;
+}
+
+/*header*/
+h1{
+  color:#FFAEC2;
+  padding: 0;
+  margin-bottom: 0px
+}
+
+h4{
+  padding: 0;
+  margin-top: 0px;
+  color:#8D8E92;
+}
+
+header {
+  margin-top:25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color:#21050D;
+  border-radius: 25px;
+  border:3px solid #FFAEC2;
+}
+/*tabelas*/
+.titulo_tabela{
+  margin-bottom: 10px;
+}
+.tabela{
+  text-align: center;
+}
+/*table{
+  display:flex;
+  justify-content: space-between;
+  padding: 0;
+  border: 3px solid #FFAEC2;
+  border-radius:15px;
+}*/
+
+table th{
+  color:#21050D;
+  background-color: #FFAEC2;
+}
+table th, td{
+  border-collapse: collapse;
+  padding:5px;
+  border: 1px solid #FFAEC2;
+}
+/*animações*/
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

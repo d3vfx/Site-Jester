@@ -1,0 +1,52 @@
+body{
+  color:#5C6AFF;
+  background-color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.discord{
+ padding: 5px;
+ min-width: 50%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ /*text-align: center;*/
+ background-color:#01052A;
+ border:3px solid #5C6AFF;
+ border-radius:25px;
+ margin-bottom: 10px;
+ 
+}
+
+.Instagram{
+ padding: 5px;
+ min-width: 50%;
+ margin-top: 10px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ /*text-align: center;*/
+ background-color:#2A0116;
+ border:3px solid #FF5C73;
+ border-radius:25px;
+}
+
+.Instagram h2{
+  color:#FF5C98;
+}
+
+footer{
+  text-align: center;
+}
