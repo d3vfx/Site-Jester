@@ -5,7 +5,7 @@ function abrirNovaAba() {
 }
 
 function abrirPrologo() {
-  window.open('https://www.wattpad.com/1431820478?utm_source=android&utm_medium=link&utm_content=share_published&wp_page=create_on_publish&wp_uname=TribouletHellfire', '_blank');
+  window.open('https://www.wattpad.com/story/366223574?utm_source=android&utm_medium=link&utm_content=story_info&wp_page=story_details_button&wp_uname=TribouletHellfire', '_blank');
 }
 
 function abrirBlog() {
