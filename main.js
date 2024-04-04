@@ -9,6 +9,6 @@ function abrirPrologo() {
 }
 
 function abrirBlog() {
-  window.open('https://jestertriboulet.blogspot.com/2023/09/como-vender-barato-atrapalha-outros.html?m=1', '_blank');
+  window.open('https://jestertriboulet.blogspot.com/2024/04/como-comecar-historias.html', '_blank');
 }
 
